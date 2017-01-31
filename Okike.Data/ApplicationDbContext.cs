@@ -21,7 +21,7 @@ namespace Okike.Data
         public DbSet<Vendor> Vendors { get; set; }
         public DbSet<FoodItem> FootItems { get; set; }
         public DbSet<Order> Orders { get; set; }
-        //public DbSet<FoodGroup> FoodGroups { get; set; }
+        public DbSet<FoodGroup> FoodGroups { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
